@@ -30,5 +30,8 @@ rather than what it is currently doing.)
 Check the platform-specific notes for [the](https://github.com/golang-design/clipboard)
 [dependencies](https://github.com/getlantern/systray). 
 
+The systray package needs CGO, and I don't have a macOS machine, 
+so please build it yourself if you are using macOS.
+
 If you want the app icon, you need to install [goversioninfo](https://github.com/josephspurrier/goversioninfo). 
 If not so, remove the first line in `main.go`.
